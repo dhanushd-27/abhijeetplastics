@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import { motion } from "motion/react"
 
 interface NavButtonProps {
@@ -8,27 +8,14 @@ interface NavButtonProps {
 }
 
 export default function NavButton({ name }: NavButtonProps) {
-  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
-
   return (
     <button
-      onMouseEnter={() => setHoveredItem(name)}
-      onMouseLeave={() => setHoveredItem(null)}
-      className='flex items-center justify-center rounded-full px-[22px] py-2'
+      className='relative flex items-center justify-center rounded-full px-[22px] py-2 overflow-hidden group'
     >
-      {hoveredItem === name && (
-      <motion.div
-        className="absolute inset-0 bg-button-foreground rounded-full"
-        layoutId="magic-pill"
-        transition={{
-          type: 'spring',
-          stiffness: 300,
-          damping: hoveredItem === name ? 30 : 60, // slower on leave
-        }}
-      />
-      )}
-      { name }
+      <span className="absolute inset-0 rounded-full bg-[var(--button-muted)] group-hover:bg-[var(--button-foreground)] transition-all duration-200"></span>
+      <span className="relative z-10 text-[var(--button-foreground)] group-hover:text-[var(--button-muted)] transition-all duration-200">
+        {name}
+      </span>
     </button>
   )
 }
-  
