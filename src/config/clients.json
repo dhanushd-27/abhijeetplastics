@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Automotive Customers",
+    "types" : [
+      {
+        "title": "Two and Three Wheelers",
+        "clients": [
+          "/two-and-three-wheelers/suzuki.png",
+          "/two-and-three-wheelers/sekisui.png",
+          "/two-and-three-wheelers/rokiminda.png",
+          "/two-and-three-wheelers/honda.png",
+          "/two-and-three-wheelers/hero.png",
+          "/two-and-three-wheelers/yamaha.png"
+        ]
+      },
+      {
+        "title": "Four Wheelers, Heavy Vehicle Earth Moving",
+        "clients": [
+          "/four-wheelers/donaldson.png",
+          "/four-wheelers/varroc.png",
+          "/four-wheelers/isuzu.png",
+          "/four-wheelers/octillion.png",
+          "/four-wheelers/tata-four-wheelers.jpg",
+          "/four-wheelers/jcb.png",
+          "/four-wheelers/iac.png",
+          "/four-wheelers/grupoantolin.png",
+          "/four-wheelers/smrc.png",
+          "/four-wheelers/yanfeng.png",
+          "/four-wheelers/lumnx.png",
+          "/four-wheelers/skoda.png",
+          "/four-wheelers/tafe.png",
+          "/four-wheelers/mg.jpg",
+          "/four-wheelers/tata.png",
+          "/four-wheelers/fca.png",
+          "/four-wheelers/kia.png",
+          "/four-wheelers/hyundai.png",
+          "/four-wheelers/mahindra.png"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Non - Auto Customers",
+    "clients": [
+      "/non-automotive/stanleyblackdecker.png",
+      "/non-automotive/freewill.png",
+      "/non-automotive/pentairwater.jpg",
+      "/non-automotive/cielterre.png",
+      "/non-automotive/bluestar.png",
+      "/non-automotive/voltas.png",
+      "/non-automotive/corob.png",
+      "/non-automotive/godrej.png",
+      "/non-automotive/bajaj.png"
+    ]
+  }
+]
