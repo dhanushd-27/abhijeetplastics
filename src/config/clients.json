@@ -5,52 +5,55 @@
       {
         "title": "Two and Three Wheelers",
         "clients": [
-          "/two-and-three-wheelers/suzuki.png",
-          "/two-and-three-wheelers/sekisui.png",
-          "/two-and-three-wheelers/rokiminda.png",
-          "/two-and-three-wheelers/honda.png",
-          "/two-and-three-wheelers/hero.png",
-          "/two-and-three-wheelers/yamaha.png"
+          { "src": "/two-and-three-wheelers/suzuki.png", "name": "Suzuki" },
+          { "src": "/two-and-three-wheelers/sekisui.png", "name": "Sekisui" },
+          { "src": "/two-and-three-wheelers/rokiminda.png", "name": "Roki Minda" },
+          { "src": "/two-and-three-wheelers/honda.png", "name": "Honda" },
+          { "src": "/two-and-three-wheelers/hero.png", "name": "Hero" },
+          { "src": "/two-and-three-wheelers/yamaha.png", "name": "Yamaha" }
         ]
       },
       {
         "title": "Four Wheelers, Heavy Vehicle Earth Moving",
         "clients": [
-          "/four-wheelers/donaldson.png",
-          "/four-wheelers/varroc.png",
-          "/four-wheelers/isuzu.png",
-          "/four-wheelers/octillion.png",
-          "/four-wheelers/tata-four-wheelers.jpg",
-          "/four-wheelers/jcb.png",
-          "/four-wheelers/iac.png",
-          "/four-wheelers/grupoantolin.png",
-          "/four-wheelers/smrc.png",
-          "/four-wheelers/yanfeng.png",
-          "/four-wheelers/lumnx.png",
-          "/four-wheelers/skoda.png",
-          "/four-wheelers/tafe.png",
-          "/four-wheelers/mg.jpg",
-          "/four-wheelers/tata.png",
-          "/four-wheelers/fca.png",
-          "/four-wheelers/kia.png",
-          "/four-wheelers/hyundai.png",
-          "/four-wheelers/mahindra.png"
+          { "src": "/four-wheelers/donaldson.png", "name": "Donaldson" },
+          { "src": "/four-wheelers/varroc.png", "name": "Varroc" },
+          { "src": "/four-wheelers/isuzu.png", "name": "Isuzu" },
+          { "src": "/four-wheelers/octillion.png", "name": "Octillion" },
+          { "src": "/four-wheelers/tata-four-wheelers.jpg", "name": "Tata Four Wheelers" },
+          { "src": "/four-wheelers/jcb.png", "name": "JCB" },
+          { "src": "/four-wheelers/iac.png", "name": "IAC" },
+          { "src": "/four-wheelers/grupoantolin.png", "name": "Grupo Antolin" },
+          { "src": "/four-wheelers/smrc.png", "name": "SMRC" },
+          { "src": "/four-wheelers/yanfeng.png", "name": "Yanfeng" },
+          { "src": "/four-wheelers/lumnx.png", "name": "Lumnx" },
+          { "src": "/four-wheelers/skoda.png", "name": "Skoda" },
+          { "src": "/four-wheelers/tafe.png", "name": "TAFE" },
+          { "src": "/four-wheelers/mg.jpg", "name": "MG" },
+          { "src": "/four-wheelers/tata.png", "name": "Tata" },
+          { "src": "/four-wheelers/fca.png", "name": "FCA" },
+          { "src": "/four-wheelers/kia.png", "name": "Kia" },
+          { "src": "/four-wheelers/hyundai.png", "name": "Hyundai" },
+          { "src": "/four-wheelers/mahindra.png", "name": "Mahindra" }
         ]
       }
     ]
   },
   {
     "category": "Non - Auto Customers",
-    "clients": [
-      "/non-automotive/stanleyblackdecker.png",
-      "/non-automotive/freewill.png",
-      "/non-automotive/pentairwater.jpg",
-      "/non-automotive/cielterre.png",
-      "/non-automotive/bluestar.png",
-      "/non-automotive/voltas.png",
-      "/non-automotive/corob.png",
-      "/non-automotive/godrej.png",
-      "/non-automotive/bajaj.png"
-    ]
+    "types": {
+      "title": "",
+      "clients": [
+        { "src": "/non-automotive/stanleyblackdecker.png", "name": "Stanley Black & Decker" },
+        { "src": "/non-automotive/freewill.png", "name": "Freewill" },
+        { "src": "/non-automotive/pentairwater.jpg", "name": "Pentair Water" },
+        { "src": "/non-automotive/cielterre.png", "name": "Ciel Terre" },
+        { "src": "/non-automotive/bluestar.png", "name": "Blue Star" },
+        { "src": "/non-automotive/voltas.png", "name": "Voltas" },
+        { "src": "/non-automotive/corob.png", "name": "Corob" },
+        { "src": "/non-automotive/godrej.png", "name": "Godrej" },
+        { "src": "/non-automotive/bajaj.png", "name": "Bajaj" }
+      ]
+    }
   }
 ]

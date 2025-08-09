@@ -1,0 +1,66 @@
+{
+  "contactUs": {
+    "address": "S.No.173-B | HISSA.No.12,14,15, Village - Chandrapada, Naigaon (East), Taluka : Vasai, Palghar – 401207",
+    "email": "enquiry@abhijeetplastics.co.in",
+    "socialMedia": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/abhijeetmanufacturing"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/ABHIJEETMANUFA1"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/company/abhijeet-dies-and-tools-private-limited/about/"
+      }
+    ]
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "links": [
+      {
+        "text": "Overview",
+        "url": ""
+      },
+      {
+        "text": "News",
+        "url": ""
+      },
+      {
+        "text": "Clients",
+        "url": ""
+      },
+      {
+        "text": "Contact",
+        "url": ""
+      }
+    ]
+  },
+  "otherLinks": {
+    "title": "Other Links",
+    "links": [
+      {
+        "text": "Disclaimer",
+        "url": ""
+      },
+      {
+        "text": "Terms & Condition",
+        "url": ""
+      },
+      {
+        "text": "Privacy Policy",
+        "url": ""
+      }
+    ]
+  },
+  "newsAndUpdate": {
+    "title": "News & Updates",
+    "description": "The latest news, articles, and resources, sent straight to your inbox every month.",
+    "newsletterForm": {
+      "inputPlaceholder": "Your Email",
+      "buttonText": "SUBSCRIBE"
+    }
+  }
+}
